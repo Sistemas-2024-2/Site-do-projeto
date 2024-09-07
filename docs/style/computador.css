@@ -72,7 +72,7 @@
     
     header {
         display:flex;
-        margin: 6px;
+        margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
         background-color: #141D28;
         align-items: center;
@@ -82,7 +82,7 @@
     }
     nav {
         display:flex;
-        margin: 6px;
+        margin: 0.5vh 0.5vw;
         flex: 1 1 ;
         height: 10vw;
         
@@ -90,7 +90,7 @@
     main {
         border: solid 3px black;
         display:flex;
-        margin: 6px;
+        margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
        
         
@@ -101,10 +101,12 @@
         
     }
     .info {
-        margin: 30px;
+        border: solid 3px black;
+        margin: 3vh 3vw;
     }
     .info1 {
-        margin: 30px;
+        margin: 3vh 3vw;
+        border: solid 3px black;
     }
    
 }

@@ -37,7 +37,7 @@
     
     header {
         display:flex;
-        margin: 6px;
+        margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
         background-color: #141D28;
         align-items: center;
@@ -47,8 +47,8 @@
     }
     nav {
         display:flex;
-        margin: 1vh;
-        flex: 1 1 100vw;
+        margin: 0.5vh 0.5vw;
+        flex: 1 1 ;
         height: 10vh;
         
     }
@@ -90,10 +90,10 @@
      #plan:hover {
          background-color: #3287C1;
      }
-    main {
+     main {
         border: solid 3px black;
         display:flex;
-        margin: 6px;
+        margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
        
         
@@ -105,15 +105,13 @@
     }
     .info, .info1 {
         margin: 2vh 6vw;
+        margin: 3vh 3vw;
+        border: solid 3px black;
     }
+    
    
     
-    footer {
-        display:flex;
-        margin: 6px;
-        flex: 1 1 100vw;
-    
-    }
+   
 
 
 

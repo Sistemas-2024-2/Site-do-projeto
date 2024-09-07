@@ -10,7 +10,10 @@
 
 footer {
     border: solid 3px;
+    margin: 0.5vh 0.5vw;
 }
 .carrosel {
     border: solid 3px;
+    margin: 2vh 2vw;
 }
+
