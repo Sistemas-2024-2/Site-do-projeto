@@ -1,0 +1,112 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@media (min-width: 1025px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+    }
+    .list1 {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+    
+    }
+    #inicio, #curs, #sobre, #plan, #sup  {
+        color: white;
+        
+    }
+    #inicio {
+       padding: 3%;
+    }
+    #inicio:hover {
+        background-color: #3287C1;
+    }
+    #curs {
+        padding: 3%;
+     }
+     #curs:hover {
+         background-color: #3287C1;
+     }
+     #sobre {
+        padding: 3%;
+     }
+     #sobre:hover {
+         background-color: #3287C1;
+     }
+     #plan {
+        padding: 3%;
+     }
+     #plan:hover {
+         background-color: #3287C1;
+     }
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+    
+    header {
+        display:flex;
+        margin: 0.5vh 0.5vw;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        justify-content: center;
+        height: 15vw;
+        
+    }
+    nav {
+        display:flex;
+        margin: 0.5vh 0.5vw;
+        flex: 1 1 ;
+        height: 10vw;
+        
+    }
+    main {
+        border: solid 3px black;
+        display:flex;
+        margin: 0.5vh 0.5vw;
+        flex: 1 1 100vw;
+       
+        
+    }
+    .infog {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .info {
+        border: solid 3px black;
+        margin: 3vh 3vw;
+    }
+    .info1 {
+        margin: 3vh 3vw;
+        border: solid 3px black;
+    }
+   
+}
