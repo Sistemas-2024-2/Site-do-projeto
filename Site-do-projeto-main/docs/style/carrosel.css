@@ -1,0 +1,56 @@
+.carrossel{
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 50%;
+    z-index: -1;
+
+}
+
+.botoes-carrossel{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.botoes-carrossel .botao{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: white;
+}
+
+.botoes-carrossel .botao.selecionado{
+    background-color: rgb(36, 13, 167);
+}
+
+.imagem{
+    
+    width: 94vw;
+    height: 70vh;
+    object-fit: cover;
+    display: none;
+  
+}
+
+.imagem.ativa{
+    display: block;
+    animation: mudarImagem 0.7s;
+
+}
+.conteudo.carrossel {
+    min-height: 70vh;
+    gap: 50px;
+  }
+
+  @keyframes mudarImagem{
+    from{
+        opacity: 0.85;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
