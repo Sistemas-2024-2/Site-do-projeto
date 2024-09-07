@@ -1,11 +1,11 @@
 @font-face {
     font-family:'Roboto';
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 
 }
 @font-face {
     font-family: 'Roboto-Light';
-    src: url(fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
 
@@ -15,101 +15,49 @@
     box-sizing: border-box;
 }
 
+body h1 {
+    font-family: Roboto;
+}
 
-body {
-    font-family: 'Roboto';
-    line-height: 1.7;
+body h2 {
+    font-family: Roboto;
+}
+
+body p {
+    font-family: Roboto-Light;
+}
+
+body ul {
+    font-family: Roboto;
 }
 
 header {
-    background-color: #ffffff;
-    color: rgb(77, 76, 76);
-    padding: 1rem;
-    text-align: center;
-    width: 100%;
-    
+    display:flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+     
 }
 nav {
-    width: 100%;
-}
-nav ul {
-    display: flex;
-    justify-content: center;
-    background-color: #2274A5;
-}
-nav ul i {
-    display: flex;
-    justify-content: center;
-    background-color: #2274A5;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li a {
-    color: white;
-    padding: 1rem;
-    display: block;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #3287C1;
-}
-
-main {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    background-color: #f4f4f4;
-}
-
-
-.content {
-    flex: 1;
-    margin: 0 1rem;
-    padding: 1rem;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display:flex;
+    margin: 3px;
+    flex: 1 1 100vw;
     
 }
-.content p {
-   text-align: left;
-    font-size: 1.15rem;
+main {
+    display:flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    
 }
-
-
-
+aside {
+    display:flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    
+}
 footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #141D28;
-    color: white;
-    margin-top: 1rem;
-    width: 100%;
-}
-.container {
-    display: flex;
-    width: 100%;
-    height: 08em;
-    gap: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.container div a {
-   
-    width: 1px;
-    height: 1px;
-    text-decoration: none;
-    color: white;
+    display:flex;
+    margin: 3px;
+    flex: 1 1 100vw;
 
-}
-#curs:hover {
-    color:#3287C1 ;
-}
-#curs1:hover {
-    color:#3287C1 ;
 }
