@@ -269,9 +269,10 @@
     }
     .list li {
         font-size: 1em;
+        
     }
     #inicio, #curs, #sobre, #plan {
-        padding: 4% 2% 4% 2%;
+        padding: 2% 1% 2% 1%;
         
     }
     
