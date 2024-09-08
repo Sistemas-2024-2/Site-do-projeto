@@ -11,7 +11,7 @@
     font-family: 'Roboto-Bold';
     src: url(../fonts/Roboto-Bold.ttf);
 }
-@media (min-width: 1024px) {
+@media  (min-width: 1500px)  {
 
     header img {
         margin-right: 1.5em;
@@ -21,7 +21,7 @@
     header h1 {
         color: white;
         font-family: Roboto;
-        font-size: 3.5em;
+        font-size: 2em;
     }
     header {
         display:flex;
@@ -29,8 +29,11 @@
         background-color: #141D28;
         align-items: center;
         justify-content: center;
-        height: 20vh;
+        height: 10vh;
         
+    }
+    .logo1 {
+        height: 8vh;
     }
     .list {
         background-color: #2274A5;
@@ -38,9 +41,13 @@
         width: 100%;
         list-style: none;
         align-items: center;
+        justify-content: flex-start;
     
     }
-    
+    .list {
+        font-size: 0.5em;
+
+    }
     #inicio, #curs, #sobre, #plan {
         padding: 1.6% 2.3% 1.6% 2.3%;
         
@@ -65,7 +72,7 @@
         display:flex;
 
         flex: 1 1 ;
-        height: 5vw;
+        height: 10vh;
         
     }
     main {
@@ -74,6 +81,12 @@
         flex: 1 1 ;
        
         
+    }
+    .infog h2 {
+        font-size: 2em;
+    }
+    .infog p {
+        font-size: 1em;
     }
     .carrosel {
         margin: 2%;
@@ -92,11 +105,11 @@
         
     }
     .footer_list1 li{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .footer_list p {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     .carrosel {
         margin-left: 2.5%;
