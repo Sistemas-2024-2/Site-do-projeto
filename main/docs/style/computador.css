@@ -12,11 +12,7 @@
     src: url(../fonts/Roboto-Bold.ttf);
 }
 @media (min-width: 1025px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+
     header img {
         margin-right: 1.5em;
         height: 15vh;
@@ -27,7 +23,17 @@
         font-family: Roboto;
         font-size: 3.5em;
     }
-    .list1 {
+    header {
+        display:flex;
+        margin: 0.5vh 0.5vw;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        
+    }
+    .list {
         background-color: #2274A5;
         display: flex;
         width: 100%;
@@ -35,46 +41,11 @@
         align-items: center;
     
     }
-    #inicio, #curs, #sobre, #plan, #sup  {
-        color: white;
+    
+    #inicio, #curs, #sobre, #plan {
+        padding: 1.6% 2.3% 1.6% 2.3%;
         
     }
-    #inicio {
-       padding: 1.8vh 1.8vw;
-       margin: 1.2vw;
-       font-size: 1.5em;
-    }
-    #inicio:hover {
-        background-color: #3287C1;
-        text-decoration: underline;
-    }
-    #curs {
-        padding: 1.8vh 1.8vw;
-        margin: 1.2vw;
-        font-size: 1.5em;
-     }
-     #curs:hover {
-         background-color: #3287C1;
-         text-decoration: underline;
-     }
-     #sobre {
-        padding: 1.8vh 1.8vw;
-        margin: 1.2vw;
-        font-size: 1.5em;
-     }
-     #sobre:hover {
-         background-color: #3287C1;
-         text-decoration: underline;
-     }
-     #plan {
-        padding: 1.8vh 1.8vw;
-        margin: 1.2vw;
-        font-size: 1.5em;
-     }
-     #plan:hover {
-         background-color: #3287C1;
-         text-decoration: underline;
-     }
     body {
         background-color: #CCCCCC;
     }
@@ -91,20 +62,10 @@
         font-family: Roboto;
     }
     
-    header {
-        display:flex;
-        margin: 0.5vh 0.5vw;
-        flex: 1 1 100vw;
-        background-color: #141D28;
-        align-items: center;
-        justify-content: center;
-        height: 20vh;
-        
-    }
     nav {
         display:flex;
         margin: 0.5vh 0.5vw;
-        flex: 1 1 ;
+        flex: 1 1 100vw;
         height: 5vw;
         
     }
@@ -129,24 +90,6 @@
         margin: 3vh 3vw;
         border: solid 3px black;
     }
-   footer {
-    height: 20vh;
-    padding-top: 2vh;
-   }
-   .lista li {
-    font-size: 1.5em;
-   }
-   .lista {
-    display: flex;
-    flex: 1 1 ;
-    justify-content: space-around;
-    list-style-type: none;
-   
-   }
-   .copy p {
-    font-family: Roboto-Bold;
-    margin-top: 9vh;
-    margin-left: 31vw;
-    font-size: 30px;
-   }
+
+
 }

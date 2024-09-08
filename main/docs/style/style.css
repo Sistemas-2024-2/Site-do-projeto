@@ -7,19 +7,36 @@
     font-family: 'Roboto-Light';
     src: url(../fonts/Roboto-Light.ttf);
 }
-
-footer {
-    border: solid 3px;
-    margin: 0.5vh 0.5vw;
-    background: #7A7A7A;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+ #inicio, #curs, #sobre, #plan {
+    color: white;
+    text-decoration: none;
+    
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#inicio:hover, #curs:hover, #sobre:hover, #plan:hover {
+    background-color: #3287C1;
+    color: white;
+    text-decoration: underline;
+}
+
 .carrosel {
     border:  2px;
     margin: 3vh 2vw;
 
 }
-.list1 li a {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-}
+
+ 
+
+
+ 
+  

@@ -52,7 +52,7 @@
         height: 10vh;
         
     }
-    .list1 {
+    .list {
         background-color: #2274A5;
         display: flex;
         width: 100%;
@@ -62,39 +62,12 @@
         
         
     }
-    #inicio {
-       padding: 3%;
+    #inicio, #curs, #sobre, #plan {
+        padding: 4% 2% 4% 2%;
+        
     }
-     #inicio:hover {
-         background-color: #3287C1;
-         text-decoration: underline;
-         color: white;
-     }
-     #curs {
-        padding: 3%;
-     }
-      #curs:hover {
-          background-color: #3287C1;
-          text-decoration: underline;
-          color: white;
-      }
-       #sobre {
-        padding: 3%;
-     }
-      #sobre:hover {
-          background-color: #3287C1;
-          text-decoration: underline;
-          color: white;
-      }
-      #plan {
-        padding: 3%;
-     }
-      #plan:hover {
-          background-color: #3287C1;
-          text-decoration: underline;
-          color: white;
-      }
-     main {
+    
+    main {
         border: solid 3px black;
         display:flex;
         margin: 0.5vh 0.5vw;
@@ -114,12 +87,4 @@
     }
     
    
-    
-   
-
-
-
-
-
-
 }
