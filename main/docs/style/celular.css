@@ -37,7 +37,6 @@
     
     header {
         display:flex;
-        margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
         background-color: #141D28;
         align-items: center;
@@ -47,7 +46,6 @@
     }
     nav {
         display:flex;
-        margin: 0.5vh 0.5vw;
         flex: 1 1 ;
         height: 10vh;
         
@@ -70,7 +68,6 @@
     main {
        
         display:flex;
-        margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
        
         
@@ -86,6 +83,245 @@
         margin: 3vh 3vw;
        
     }
-    
+    .carrosel {
+        margin-left: 3%;
+        margin-top: 3%;
+    }
    
+}
+@media (max-width: 767px) and (orientation: landscape) {
+    header h1 {
+        color: white;
+        font-family: Roboto;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+    
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 30vh;
+        
+    }
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+    #inicio, #curs, #sobre, #plan {
+        padding: 4% 2% 4% 2%;
+        
+    }
+    
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+       
+        
+    }
+    
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    .carrosel {
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    footer {
+        background: #7A7A7A;
+        display: flex;
+        height: 30vh;
+        width: 100%;
+        
+    }
+    .footer_list1 {
+        display: flex;
+        align-items: center;
+        height: 15vh;
+        justify-content: space-around;
+        width: 100%;
+    
+    
+    }
+    .footer_list1 li {
+        list-style-type: none;
+        width: 10vw;
+        height: 10vh;
+    
+        
+    }
+    .footer_list {
+        display: flex;
+        flex: 1 1 100vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer_list p {
+        height: 2vh;
+    }
+    #sup:hover, #mais:hover, #seja:hover {
+        text-decoration: underline;
+    
+    }
+    .footer_list li a {
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+@media (max-width: 1040px) and (orientation: landscape) {
+    header h1 {
+        color: white;
+        font-family: Roboto;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+    
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 30vh;
+        
+    }
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+    #inicio, #curs, #sobre, #plan {
+        padding: 4% 2% 4% 2%;
+        
+    }
+    
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+       
+        
+    }
+    
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    .carrosel {
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    footer {
+        background: #7A7A7A;
+        display: flex;
+        height: 30vh;
+        width: 100%;
+        
+    }
+    .footer_list1 {
+        display: flex;
+        align-items: center;
+        height: 15vh;
+        justify-content: space-around;
+        width: 100%;
+    
+    
+    }
+    .footer_list1 li {
+        list-style-type: none;
+        width: 10vw;
+        height: 10vh;
+    
+        
+    }
+    .footer_list {
+        display: flex;
+        flex: 1 1 100vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer_list p {
+        height: 2vh;
+    }
+    #sup:hover, #mais:hover, #seja:hover {
+        text-decoration: underline;
+    
+    }
+    .footer_list li a {
+        color: black;
+        text-decoration: none;
+    }
+    
 }
