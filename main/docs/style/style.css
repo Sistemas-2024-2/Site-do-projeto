@@ -11,10 +11,15 @@
 footer {
     border: solid 3px;
     margin: 0.5vh 0.5vw;
+    background: #7A7A7A;
 }
 .carrosel {
     border:  2px;
     margin: 3vh 2vw;
 
 }
-
+.list1 li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}

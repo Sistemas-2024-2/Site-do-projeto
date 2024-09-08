@@ -7,7 +7,7 @@
     font-family: 'Roboto-Light';
     src: url(../fonts/Roboto-Light.ttf);
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     * {
         margin: 0;
         padding: 0;
@@ -32,27 +32,36 @@
     }
     #inicio {
        padding: 3%;
+       
     }
     #inicio:hover {
         background-color: #3287C1;
+        color: white;
+        text-decoration: underline;
     }
     #curs {
         padding: 3%;
      }
      #curs:hover {
          background-color: #3287C1;
+         color: white;
+         text-decoration: underline;
      }
      #sobre {
         padding: 3%;
      }
      #sobre:hover {
          background-color: #3287C1;
+         color: white;
+         text-decoration: underline;
      }
      #plan {
         padding: 3%;
      }
      #plan:hover {
          background-color: #3287C1;
+         color: white;
+         text-decoration: underline;
      }
     body {
         background-color: #CCCCCC;
@@ -72,7 +81,7 @@
     
     header {
         display:flex;
-        margin: 0.5vh 0.5vw;
+        margin: 6px;
         flex: 1 1 100vw;
         background-color: #141D28;
         align-items: center;
@@ -82,7 +91,7 @@
     }
     nav {
         display:flex;
-        margin: 0.5vh 0.5vw;
+        margin: 6px;
         flex: 1 1 ;
         height: 10vw;
         
@@ -90,7 +99,7 @@
     main {
         border: solid 3px black;
         display:flex;
-        margin: 0.5vh 0.5vw;
+        margin: 6px;
         flex: 1 1 100vw;
        
         
@@ -101,12 +110,30 @@
         
     }
     .info {
-        border: solid 3px black;
-        margin: 3vh 3vw;
+        margin: 30px;
     }
     .info1 {
-        margin: 3vh 3vw;
-        border: solid 3px black;
+        margin: 30px;
     }
-   
+    aside {
+        display:flex;
+        margin: 6px;
+        flex: 1 1 100vw;
+        
+    }
+    footer {
+        display:flex;
+        flex: 1 1 100vw;
+    
+    }
+
+
+
+
+
+ 
+    
+
+
+
 }
