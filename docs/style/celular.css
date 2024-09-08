@@ -218,14 +218,15 @@
     header h1 {
         color: white;
         font-family: Roboto;
-        font-size: 4em;
+        font-size: 2em;
     }
     
     body {
         background-color: #CCCCCC;
     }
     .logo1 {
-        height: 20vh;
+        height: 15vh;
+        margin: 2%;
     }
     
     body h2 {
@@ -246,13 +247,13 @@
         background-color: #141D28;
         align-items: center;
         justify-content: center;
-        height: 30vh;
+        height: 20vh;
         
     }
     nav {
         display:flex;
         flex: 1 1 ;
-        height: 30vh;
+        height: 20vh;
         
     }
     .list {
@@ -262,11 +263,12 @@
         justify-content: space-around;
         list-style: none;
         align-items: center;
+        justify-content: flex-start;
         
         
     }
     .list li {
-        font-size: 2em;
+        font-size: 1em;
     }
     #inicio, #curs, #sobre, #plan {
         padding: 4% 2% 4% 2%;
@@ -287,10 +289,10 @@
         
     }
     .infog h2 {
-        font-size: 3em;
+        font-size: 1.5em;
     }
     .infog p {
-        font-size: 2em;
+        font-size: 1.1em;
     }
     .info, .info1 {
         margin: 2vh 6vw;
@@ -344,10 +346,10 @@
         text-decoration: none;
     }
     .footer_list li {
-        font-size: 2em;
+        font-size: 1em;
     }
     .footer_list p {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 @media (min-device-width: 1000px) and (orientation: landscape) {
