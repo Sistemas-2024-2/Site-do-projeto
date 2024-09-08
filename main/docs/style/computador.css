@@ -70,12 +70,14 @@
         
     }
     main {
-        border: solid 3px black;
         display:flex;
         margin: 0.5vh 0.5vw;
         flex: 1 1 100vw;
        
         
+    }
+    .carrosel {
+        margin: 2%;
     }
     .infog {
         display: flex;
@@ -83,13 +85,22 @@
         
     }
     .info {
-        border: solid 3px black;
+    
         margin: 3vh 3vw;
     }
     .info1 {
         margin: 3vh 3vw;
-        border: solid 3px black;
+        
     }
 
+    footer {
+        background: #7A7A7A;
+        display: flex;
+        
+    }
+    .footer_list1 {
+        align-items: center;
+        justify-content: center;
+    }
 
 }
