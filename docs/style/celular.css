@@ -362,14 +362,15 @@
     header h1 {
         color: white;
         font-family: Roboto;
-        font-size: 4em;
-    }
-    .logo1 {
-        height: 20vh;
+        font-size: 2em;
     }
     
     body {
         background-color: #CCCCCC;
+    }
+    .logo1 {
+        height: 13vh;
+        margin: 2%;
     }
     
     body h2 {
@@ -390,13 +391,13 @@
         background-color: #141D28;
         align-items: center;
         justify-content: center;
-        height: 30vh;
+        height: 15vh;
         
     }
     nav {
         display:flex;
         flex: 1 1 ;
-        height: 20vh;
+        height: 15vh;
         
     }
     .list {
@@ -406,12 +407,17 @@
         justify-content: space-around;
         list-style: none;
         align-items: center;
+        justify-content: flex-start;
         
         
     }
+    .list li {
+        font-size: 1em;
+        
+    }
     #inicio, #curs, #sobre, #plan {
-        padding: 4% 2% 4% 2%;
-        font-size: 2em;
+        padding: 1% 0.5% 1% 0.5%;
+        
     }
     
     main {
@@ -427,16 +433,16 @@
         flex-direction: column;
         
     }
+    .infog h2 {
+        font-size: 1.5em;
+    }
+    .infog p {
+        font-size: 1.1em;
+    }
     .info, .info1 {
         margin: 2vh 6vw;
         margin: 3vh 3vw;
        
-    }
-    .infog  h2 {
-        font-size: 3em;
-    }
-    .infog p {
-        font-size: 2em;
     }
     .carrosel {
         margin-left: 3%;
@@ -445,7 +451,7 @@
     footer {
         background: #7A7A7A;
         display: flex;
-        height: 40vh;
+        height: 30vh;
         width: 100%;
         
     }
@@ -485,9 +491,10 @@
         text-decoration: none;
     }
     .footer_list li {
-        font-size: 2em;
+        font-size: 1em;
     }
     .footer_list p {
-        font-size: 2em;
+        font-size: 1em;
+        margin-bottom: 3%;
     }
 }

@@ -45,7 +45,7 @@
     
     }
     .list {
-        font-size: 0.5em;
+        font-size: 1em;
 
     }
     #inicio, #curs, #sobre, #plan {
@@ -110,6 +110,7 @@
 
     .footer_list p {
         font-size: 1.1em;
+        margin-bottom: 3%;
     }
     .carrosel {
         margin-left: 2.5%;
