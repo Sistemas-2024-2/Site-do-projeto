@@ -137,7 +137,7 @@
    }
 }
 /* CELULARES DEITADO 1 */
-@media only screen and (orientation: landscape) (min-width: 1px) and (max-width: 800px) and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (min-width: 1px) and (max-width: 800px) and (orientation: landscape) {
 
     /* Configurações gerais */
 
@@ -302,18 +302,18 @@
         background-color: #141D28;
         align-items: center;
         flex-direction: start;
-        height: 12vh;
+        height: 10vh;
         
         
     }
     .logo1 {
-        height: 10vh;
+        height: 8vh;
         margin: 3%;
     }
     nav {
         display:flex;
         flex: 1 1 ;
-        height: 15vh;
+        height: 10vh;
         
     }
     .list {
@@ -388,7 +388,7 @@
 }
  
 /* TABLETS EM PÉ */
-@media only screen and (min-width: 729px) and (max-width: 1200px) and (orientation: portrait) {
+@media only screen and (orientation: portrait) and (min-width: 728px) and (max-width: 1200px) {
 
     /* CONFIGURAÇÕES GERAIS */
 
@@ -434,7 +434,7 @@
     nav {
         display:flex;
         flex: 1 1 ;
-        height: 6vh;
+        height: 8vh;
         
     }
     .logo1 {
@@ -503,8 +503,9 @@
        
     }
     .carrosel {
-        margin-top: 3%;
-        margin-left: 3%;
+        margin-top: 2%;
+        margin-left: 2% ;
+       
         
     }
     .infog p {
@@ -513,6 +514,7 @@
     .infog h2 {
         font-size: 1.5em;
     }
+    
 
     /* FOOTER */
 
@@ -564,18 +566,18 @@
         background-color: #141D28;
         align-items: center;
         flex-direction: start;
-        height: 10vh;
+        height: 15vh;
         
         
     }
     nav {
         display:flex;
         flex: 1 1 ;
-        height: 10vh;
+        height: 17vh;
         
     }
     .logo1 {
-        height: 9vh;
+        height: 14vh;
         margin: 3%;
     }
     #inicio, #curs, #sobre, #plan {
