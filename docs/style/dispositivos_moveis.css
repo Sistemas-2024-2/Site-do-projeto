@@ -523,6 +523,7 @@
    }
    .footer_list p {
     font-size: 1.2em;
+    
    }
 }
 
@@ -654,11 +655,13 @@
     }
 
     /* FOOTER */
-
+    
    .footer_list ul li {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin-bottom: 2%;
    }
    .footer_list p {
     font-size: 1.2em;
+    margin-bottom: 1.7%;
    }
 }
