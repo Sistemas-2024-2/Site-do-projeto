@@ -29,13 +29,7 @@
     text-decoration: underline;
 }
 
-footer {
-    background: #7A7A7A;
-    display: flex;
-    height: 20%;
-    width: 100%;
-    
-}
+
 .footer_list1 {
     display: flex;
     align-items: center;

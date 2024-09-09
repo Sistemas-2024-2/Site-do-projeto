@@ -12,7 +12,7 @@
     src: url(../fonts/Roboto-Bold.ttf);
 }
 /* CONFIGURAÇÕES PARA COMPUTADORES NO GERAL */
-@media  only screen and (min-width: 1200px)    {
+@media  only screen and (min-width: 1201px)    {
 
     header img {
         margin-right: 1.5em;
@@ -29,7 +29,7 @@
         flex: 1 1 ;
         background-color: #141D28;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         height: 10vh;
         
     }
@@ -83,39 +83,81 @@
        
         
     }
-    .infog h2 {
-        font-size: 2em;
+    /* CONTEUDO DA PAGINA SOBRE */
+    .sobre {
+        margin: 3%;
     }
-    .infog p {
-        font-size: 1em;
+    .sobre h2 {
+        font-size: 1.8em;
     }
-    .carrosel {
-        margin: 2%;
+    .sobre li {
+        font-size: 1.4em;
     }
+    /* CONTEUDO DA PAGINA PLANO */
+    .graduacao {
+        margin: 3%;
+    }
+    .graduacao ul {
+        list-style-type: none;
+        
+    }
+    /* conteudo da pagina cursos */
+
+    .conteudo {
+        margin: 3%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+    .cursos1 {
+        margin: 1%;
+
+    }
+    .cursos2 {
+        margin: 1%;
+    }
+
+    /* conteudo da pagina inicio */
+
     .infog {
         display: flex;
-        justify-content: space-around;
         
     }
-    .info {
     
-        margin: 2vh 2vw;
+    .conteudo {
+        margin: 3%;
     }
-    .info1 {
-        margin: 2vh 2vw;
+    .info, .info1 {
+        margin: 3%;
+    }
+    
+    .infog p {
+        font-size: 1.2em;
+    }
+    .infog h2 {
+        margin-bottom: 1.5%;
+        font-size: 1.5em;
+    }
+
+    /* footer */
+    footer {
+        background: #7A7A7A;
+        display: 1 1 100vw;
+       height: 30vh;
         
     }
+
     .footer_list1 li{
         font-size: 1.1em;
     }
 
     .footer_list p {
         font-size: 1.1em;
-        margin-bottom: 3%;
+        margin-top: 3%;
     }
-    .carrosel {
-        margin-left: 2.5%;
-    }
-
+    
 
 }
