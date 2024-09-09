@@ -11,7 +11,8 @@
     font-family: 'Roboto-Bold';
     src: url(../fonts/Roboto-Bold.ttf);
 }
-@media  (min-width: 1500px)  {
+/* CONFIGURAÇÕES PARA COMPUTADORES NO GERAL */
+@media  only screen and (min-width: 1200px)    {
 
     header img {
         margin-right: 1.5em;

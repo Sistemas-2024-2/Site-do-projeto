@@ -1,0 +1,662 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+/* CELULARES EM PE */
+@media only screen and (orientation: portrait) and (max-width: 728px) {
+
+    /* Configurações gerais */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+        font-size: 1em;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+
+    /* Header e navegação */
+
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        flex-direction: start;
+        height: 6vh;
+        
+        
+    }
+    .logo1 {
+        height: 5vh;
+        margin: 3%;
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 6vh;
+        
+    }
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+    #inicio, #curs, #sobre, #plan {
+        padding: 2% 1% 2% 1%;
+        font-size: 0.7em;
+        margin: 1%;
+        
+        
+    }
+
+    /* main geral */
+
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+       
+        
+    }
+
+    /* conteudo da pagina cursos */
+
+    .cursos1 {
+        margin: 2%;
+    }
+    .cursos2 {
+        margin: 2%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+
+    /* conteudo da pagina inicio */
+
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    .carrosel {
+        margin-top: 3%;
+        margin-left: 3%;
+        
+    }
+    .infog p {
+        font-size: 0.8em;
+    }
+    .infog h2 {
+        font-size: 1.2em;
+    }
+
+    /* footer */
+
+   .footer_list ul li {
+    font-size: 0.7em;
+   }
+   .footer_list p {
+    font-size: 0.7em;
+   }
+}
+/* CELULARES DEITADO 1 */
+@media only screen and (orientation: landscape) (min-width: 1px) and (max-width: 800px) and (orientation: landscape) {
+
+    /* Configurações gerais */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+        font-size: 1em;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+
+    /* Header e navegação */
+
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        flex-direction: start;
+        height: 12vh;
+        
+        
+    }
+    .logo1 {
+        height: 10vh;
+        margin: 3%;
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 11vh;
+        
+    }
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+    #inicio, #curs, #sobre, #plan {
+        margin: 1%;
+        padding: 1.5%;
+        font-size: 0.8em;
+        
+    }
+
+    /* CONFIGURAÇÃO GERAL DO CONTEUDO */
+
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+        margin: 3%; 
+    }
+
+    /* CONTEUDO DA PAGINA CURSOS */
+
+    .cursos1 {
+        margin: 2%;
+    }
+    .cursos2 {
+        margin: 2%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+    
+    /* CONTEUDO DA PAGINA INICIO */
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    
+
+    .infog p {
+        font-size: 1em;
+    }
+    .infog h2 {
+        font-size: 1.2em;
+    }
+    /* FOOTER */
+   .footer_list ul li {
+    font-size: 0.6em;
+    margin-top: 1.5%;
+   }
+   .footer_list p {
+    font-size: 0.8em;
+    margin: 1.5%;
+   }
+}
+
+/* CELULARES DEITADO 2 */
+
+@media only screen and (max-width: 800px) and (max-width: 1000px) and (orientation: landscape) {
+
+    /* Configurações gerais */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+        font-size: 1em;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+
+    /* Header e navegação */
+
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        flex-direction: start;
+        height: 12vh;
+        
+        
+    }
+    .logo1 {
+        height: 10vh;
+        margin: 3%;
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 15vh;
+        
+    }
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+    #inicio, #curs, #sobre, #plan {
+        margin: 1%;
+        padding: 1.5%;
+        font-size: 0.8em;
+        
+    }
+
+    /* CONFIGURAÇÃO GERAL DO CONTEUDO */
+
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+        margin: 3%; 
+    }
+
+    /* CONTEUDO DA PAGINA CURSOS */
+
+    .cursos1 {
+        margin: 2%;
+    }
+    .cursos2 {
+        margin: 2%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+    
+    /* CONTEUDO DA PAGINA INICIO */
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    
+
+    .infog p {
+        font-size: 1em;
+    }
+    .infog h2 {
+        font-size: 1.2em;
+    }
+    /* FOOTER */
+   .footer_list ul li {
+    font-size: 0.6em;
+    margin-top: 1.5%;
+   }
+   .footer_list p {
+    font-size: 0.8em;
+    margin: 1.5%;
+   }
+}
+ 
+/* TABLETS EM PÉ */
+@media only screen and (min-width: 729px) and (max-width: 1200px) and (orientation: portrait) {
+
+    /* CONFIGURAÇÕES GERAIS */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+        font-size: 2em;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+
+    /* HEADER E NAVEGAÇÃO */
+
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        flex-direction: start;
+        height: 10vh;
+        
+        
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 6vh;
+        
+    }
+    .logo1 {
+        height: 9vh;
+        margin: 3%;
+    }
+    #inicio, #curs, #sobre, #plan {
+        padding: 2% 1% 2% 1%;
+        font-size: 1.2em;
+        margin: 1%;
+        
+        
+    }
+    
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+
+    /* CONFIGURAÇÃO GERAL CONTEUDO */
+    
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+       
+        
+    }
+
+    /* CONTEUDO DA PAGINA CURSOS */
+
+    .cursos1 {
+        margin: 4%;
+    }
+    .cursos2 {
+        margin: 4%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+    .conteudo li {
+        font-size: 1.3em;
+    }
+    .conteudo h2 {
+        font-size: 1.8em;
+    }
+
+    /* CONTEUDO DA PAGINA INICIO */
+    
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    .carrosel {
+        margin-top: 3%;
+        margin-left: 3%;
+        
+    }
+    .infog p {
+        font-size: 1.2em;
+    }
+    .infog h2 {
+        font-size: 1.5em;
+    }
+
+    /* FOOTER */
+
+   .footer_list ul li {
+    font-size: 1.2em;
+   }
+   .footer_list p {
+    font-size: 1.2em;
+   }
+}
+
+/* TABLETS DEITADOS */
+@media only screen and (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
+
+    /* CONFIGURAÇÕES GERAIS */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+        font-size: 2em;
+    }
+    
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+
+    /* HEADER E NAVEGAÇÃO */
+
+    header {
+        display:flex;
+        flex: 1 1 100vw;
+        background-color: #141D28;
+        align-items: center;
+        flex-direction: start;
+        height: 10vh;
+        
+        
+    }
+    nav {
+        display:flex;
+        flex: 1 1 ;
+        height: 10vh;
+        
+    }
+    .logo1 {
+        height: 9vh;
+        margin: 3%;
+    }
+    #inicio, #curs, #sobre, #plan {
+        padding: 2% 1% 2% 1%;
+        font-size: 1.2em;
+        margin: 1%;
+        
+        
+    }
+    
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        align-items: center;
+        
+        
+    }
+
+    /* CONFIGURAÇÃO GERAL CONTEUDO */
+    
+    main {
+       
+        display:flex;
+        flex: 1 1 100vw;
+       
+        
+    }
+
+    /* CONTEUDO DA PAGINA CURSOS */
+
+    .cursos1 {
+        margin: 4%;
+    }
+    .cursos2 {
+        margin: 4%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+    .conteudo li {
+        font-size: 1.3em;
+    }
+    .conteudo h2 {
+        font-size: 1.8em;
+    }
+
+    /* CONTEUDO DA PAGINA INICIO */
+    
+    .infog {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info, .info1 {
+        margin: 2vh 6vw;
+        margin: 3vh 3vw;
+       
+    }
+    .carrosel {
+        margin-top: 3%;
+        margin-left: 3%;
+        
+    }
+    .infog p {
+        font-size: 1.2em;
+    }
+    .infog h2 {
+        font-size: 1.5em;
+    }
+
+    /* FOOTER */
+
+   .footer_list ul li {
+    font-size: 1.2em;
+   }
+   .footer_list p {
+    font-size: 1.2em;
+   }
+}
