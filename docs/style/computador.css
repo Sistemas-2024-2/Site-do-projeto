@@ -12,7 +12,7 @@
     src: url(../fonts/Roboto-Bold.ttf);
 }
 /* CONFIGURAÇÕES PARA COMPUTADORES NO GERAL */
-@media  only screen and (min-width: 1201px)    {
+@media  only screen and (min-width: 1181px)    {
 
     header img {
         margin-right: 1.5em;
