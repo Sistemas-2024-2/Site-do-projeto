@@ -20,7 +20,7 @@
     header h1 {
         color: white;
         font-family: Roboto;
-        font-size: 1em;
+        font-size: 1.4em;
     }
     
     body {
@@ -47,18 +47,18 @@
         background-color: #141D28;
         align-items: center;
         flex-direction: start;
-        height: 6vh;
+        height: 7vh;
         
         
     }
     .logo1 {
-        height: 5vh;
+        height: 6vh;
         margin: 3%;
     }
     nav {
         display:flex;
         flex: 1 1 ;
-        height: 6vh;
+        height: 5vh;
         
     }
     .list {
@@ -77,6 +77,61 @@
         
         
     }
+    .navbar {
+        background-color: #2274A5;
+        color: #fff;
+        padding: 5vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    .menu-toggle {
+        display: none;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+    
+    .list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+    .list a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+    .menu-toggle {
+     display: block;
+    }
+    
+    .list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 4vh;
+        left: 0;
+        background-color: #2274A5;
+    }
+    
+    .list.active {
+        display: flex;
+    }
+
+    .list li {
+        text-align: center;
+        
+    }
 
     /* main geral */
 
@@ -90,6 +145,10 @@
     /* CONTEUDO DA PAGINA SOBRE */
     .sobre {
         margin: 7%;
+    }
+    .sobre ul {
+        margin: 3%;
+        list-style-type: none;
     }
     /* CONTEUDO DA PAGINA PLANO */
     .graduacao {
@@ -216,8 +275,11 @@
     }
     #inicio, #curs, #sobre, #plan {
         padding: 2% 1% 2% 1%;
-        font-size: 1em;
+        font-size: 0.8em;
         margin: 1%;
+    }
+    .menu-toggle {
+        display: none; 
     }
 
     /* main geral */
@@ -238,6 +300,10 @@
     }
     .sobre li {
         font-size: 1em;
+    }
+    .sobre ul {
+        margin: 3%;
+        list-style-type: none;
     }
     /* CONTEUDO DA PAGINA PLANO */
     .graduacao {
@@ -386,6 +452,9 @@
         
         
     }
+    .menu-toggle {
+        display: none; 
+    }
 
     /* main geral */
 
@@ -405,6 +474,10 @@
     }
     .sobre li {
         font-size: 1.4em;
+    }
+    .sobre ul {
+        margin: 3%;
+        list-style-type: none;
     }
     /* CONTEUDO DA PAGINA PLANO */
     .graduacao {
@@ -540,7 +613,9 @@
         
         
     }
-
+    .menu-toggle {
+        display: none; 
+    }
     /* main geral */
 
     main {
@@ -559,6 +634,10 @@
     }
     .sobre li {
         font-size: 1.4em;
+    }
+    .sobre ul {
+        margin: 3%;
+        list-style-type: none;
     }
     /* CONTEUDO DA PAGINA PLANO */
     .graduacao {
@@ -626,7 +705,7 @@
    }
 }
 /* TABLETS DEITADOS */
-@media only screen and (orientation:landscape) and (min-width: 1024px) and (max-width: 1180px) {
+@media only screen and (orientation:landscape) and (min-width: 1001px) and (max-width: 1180px) {
 
     /* CONFIGURAÇÕES GERAIS */
 
@@ -685,6 +764,9 @@
         margin: 1%;
         
         
+    }
+    .menu-toggle {
+        display: none; 
     }
     
     .list {
@@ -751,6 +833,14 @@
     }
     .infog h2 {
         font-size: 1.5em;
+    }
+    /* PAGINA SOBRE */
+    .sobre ul {
+        margin: 3%;
+        list-style-type: none;
+    }
+    .sobre {
+        margin: 2%;
     }
     
 
@@ -831,6 +921,9 @@
         margin: 1%;
         
         
+    }
+    .menu-toggle {
+        display: none; 
     }
     
     .list {
