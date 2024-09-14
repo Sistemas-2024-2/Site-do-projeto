@@ -134,10 +134,15 @@
         display: flex;
         
     }
-    
-    .conteudo {
-        margin: 3%;
+    .conteudo-carrossel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+        margin-right: 2%;
     }
+    
     .info, .info1 {
         margin: 3%;
     }

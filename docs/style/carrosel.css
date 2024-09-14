@@ -1,10 +1,15 @@
 .carrossel{
     display: flex;
+    align-items: center;
+    justify-content: center;
     top: 0;
     left: 0;
     z-index: -1;
+    height: 40vh;
+
   
 }
+
 
 .botoes-carrossel{
     display: flex;
@@ -36,7 +41,7 @@
 }
 
 .imagem.ativa{
-    display: block;
+    display: flex;
     animation: mudarImagem 0.7s;
 
 }
