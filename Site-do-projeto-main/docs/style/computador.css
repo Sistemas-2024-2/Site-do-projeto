@@ -1,0 +1,180 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+/* CONFIGURAÇÕES PARA COMPUTADORES NO GERAL */
+@media  only screen and (min-width: 1181px)    {
+
+    header img {
+        margin-right: 1.5em;
+        height: 15vh;
+        
+    }
+    header h1 {
+        color: white;
+        font-family: Roboto;
+        font-size: 2em;
+    }
+    header {
+        display:flex;
+        flex: 1 1 ;
+        background-color: #141D28;
+        align-items: center;
+        justify-content: flex-start;
+        height: 10vh;
+        
+    }
+    .logo1 {
+        height: 8vh;
+        margin: 1%;
+    }
+    .list {
+        background-color: #2274A5;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-start;
+    
+    }
+    .list {
+        font-size: 1em;
+
+    }
+    #inicio, #curs, #sobre, #plan {
+        padding: 1.6% 2.3% 1.6% 2.3%;
+        
+    }
+    .menu-toggle {
+        display: none; 
+    }
+    body {
+        background-color: #CCCCCC;
+    }
+    
+    body h2 {
+        font-family: Roboto;
+    }
+    
+    body p {
+        font-family: Roboto-Light;
+    }
+    
+    body ul {
+        font-family: Roboto;
+    }
+    
+    nav {
+        display:flex;
+
+        flex: 1 1 ;
+        height: 10vh;
+        
+    }
+    main {
+        display:flex;
+        margin: 0.5vh 0.5vw;
+        flex: 1 1 ;
+       
+        
+    }
+    /* CONTEUDO DA PAGINA SOBRE */
+    .sobre {
+        margin: 3%;
+    }
+    .sobre h2 {
+        font-size: 1.8em;
+    }
+    .sobre li {
+        font-size: 1.4em;
+    }
+    .sobre ul {
+        margin: 3%;
+        list-style-type: none;
+    }
+    /* CONTEUDO DA PAGINA PLANO */
+    .graduacao {
+        margin: 3%;
+    }
+    .graduacao ul {
+        list-style-type: none;
+        
+    }
+    /* conteudo da pagina cursos */
+
+    .conteudo {
+        margin: 3%;
+    }
+    .cursos1 ol {
+        list-style: none;
+    }
+    .cursos2 ol {
+        list-style: none;
+    }
+    .cursos1 {
+        margin: 1%;
+
+    }
+    .cursos2 {
+        margin: 1%;
+    }
+
+    /* conteudo da pagina inicio */
+
+    .infog {
+        display: flex;
+        
+    }
+    .conteudo-carrossel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+        margin-right: 2%;
+    }
+    
+.conteudo-carrossel-mobile{
+    display: none;
+}
+
+    .info, .info1 {
+        margin: 3%;
+    }
+    
+    .infog p {
+        font-size: 1.2em;
+    }
+    .infog h2 {
+        margin-bottom: 1.5%;
+        font-size: 1.5em;
+    }
+
+    /* footer */
+    footer {
+        background: #7A7A7A;
+        display: 1 1 100vw;
+       height: 30vh;
+        
+    }
+
+    .footer_list1 li{
+        font-size: 1.1em;
+    }
+
+    .footer_list p {
+        font-size: 1.1em;
+        margin-top: 3%;
+    }
+    
+
+}
