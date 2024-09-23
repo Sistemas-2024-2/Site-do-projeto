@@ -174,27 +174,20 @@
     }
 
     /* conteudo da pagina inicio */
-    .conteudo-carrossel {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 80vh;
-    }
+
     .infog {
         display: flex;
         flex-direction: column;
-        margin-bottom: 30%;
         
     }
     .info, .info1 {
-        margin: 3vh 6vw;
+        margin: 2vh 6vw;
         margin: 3vh 3vw;
-        display: 1 1 100vw;
        
     }
     .carrosel {
-        
+        margin-top: 3%;
+        margin-left: 3%;
         
     }
     .infog p {
@@ -358,12 +351,10 @@
         margin: 3vh 3vw;
        
     }
-    .conteudo-carrossel {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 90vh;
+    .carrosel {
+        margin-top: 3%;
+        margin-left: 3%;
+        
     }
     .infog p {
         font-size: 1.2em;
@@ -523,12 +514,10 @@
         margin: 3vh 3vw;
        
     }
-    .conteudo-carrossel {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 80vh;
+    .carrosel {
+        margin-top: 3%;
+        margin-left: 3%;
+        
     }
     .infog p {
         font-size: 1.2em;
@@ -674,12 +663,8 @@
     }
 
     /* conteudo da pagina inicio */
-    .conteudo-carrossel {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 80vh;
+    .conteudo-carrosel {
+        margin-right: 3%;
     }
     .infog {
         display: flex;
@@ -691,7 +676,11 @@
         margin: 3vh 3vw;
        
     }
-    
+    .carrosel {
+        margin-top: 3%;
+        margin-left: 3%;
+        
+    }
     .infog p {
         font-size: 1.2em;
     }
@@ -833,12 +822,11 @@
         margin: 3vh 3vw;
        
     }
-    .conteudo-carrossel {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 80vh;
+    .carrosel {
+        margin-top: 2%;
+        margin-left: 2% ;
+       
+        
     }
     .infog p {
         font-size: 1.2em;
