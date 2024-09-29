@@ -109,75 +109,16 @@
         list-style-type: none;
         
     }
-    .listageralgraduacao ul {
-        margin: 3%;
-    }
-    .listageralgraduacao p {
-        font-size: 1.3em;
-        margin: 1%;
-        font-family: Roboto-Bold;
-    }
-    .listageralgraduacao li {
-        margin: 2%;
-    }
-    .imagemgraduacao01 {
-        display: flex;
-        justify-content: center;
-       
-    }
-    .imagemgraduacao1 {
-        border: 2px solid #3498db; 
-        box-shadow: 300px rgba(52, 152, 219, 0.6); 
-        border-radius: 0; 
-    }
     /* conteudo da pagina cursos */
 
     .conteudo {
         margin: 3%;
     }
-    #imagemcurso {
-        height: 250px;
-        margin-left: 5.5%;
-        margin-bottom: 3%;
-        border: 2px solid #3498db; 
-        box-shadow: 300px rgba(52, 152, 219, 0.6); 
-        border-radius: 0; 
-        
-    }
-    #imagemcurso2 {
-        
-        height: 370px;
-        margin-left: 5%;
-        
-        border: 2px solid #3498db; 
-        box-shadow: 300px rgba(52, 152, 219, 0.6); 
-        border-radius: 0; 
-    }
-  
-    
-    .listacursos1 ul {
+    .cursos1 ol {
         list-style: none;
-        margin: 3%;
-        
     }
-    .listacursos1 ul li {
-        font-size: 1.2em;
-        margin: 2%;
-        font-family: Roboto-Bold;
-    }
-    .listacursos1 p {
-        font-size: 1.2em;
-        margin: 2%;
-        font-family: Roboto-Bold;
-    }
-    #titulocurso1 {
-        margin: 2%;
-        font-size: 1.3em;
-        font-family: Roboto-Bold;
-    }
-    .videocurso1 {
-        display: flex;
-        justify-content: center;
+    .cursos2 ol {
+        list-style: none;
     }
     .cursos1 {
         margin: 1%;
@@ -189,16 +130,11 @@
 
     /* conteudo da pagina inicio */
 
-    .imagem_inicio {
+    .infog {
         display: flex;
-        justify-content: center;
-
+        
     }
-    #imagem1, #imagem2 {
-        border: 2px solid #3498db; /* cor do contorno */
-        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
-        border-radius: 5%; /* bordas arredondadas (opcional) */
-    }
+    
     .conteudo {
         margin: 3%;
     }
@@ -208,7 +144,6 @@
     
     .infog p {
         font-size: 1.2em;
-        margin-bottom: 3%;
     }
     .infog h2 {
         margin-bottom: 1.5%;
