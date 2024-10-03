@@ -1139,6 +1139,13 @@
        
         
     }
+    #imagem2, #imagem1 {
+        border: 2px solid #3498db; 
+        box-shadow: 300px rgba(52, 152, 219, 0.6); 
+        border-radius: 0; 
+        margin: 3%;
+    }
+
     .infog p {
         font-size: 1.2em;
     }
