@@ -179,6 +179,15 @@
         display: flex;
         justify-content: center;
     }
+    .videocurso_celular {
+        display: none;
+    }
+    .videocurso_celular_deitado {
+        display:none;
+    }
+    .videocurso_tablet {
+        display: none;
+    }
     .cursos1 {
         margin: 1%;
 

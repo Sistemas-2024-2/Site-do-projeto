@@ -65,7 +65,11 @@
     color: black;
     text-decoration: none;
 }
-
+.imagem_inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
