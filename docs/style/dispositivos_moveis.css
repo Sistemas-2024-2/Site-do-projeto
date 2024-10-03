@@ -947,7 +947,7 @@
    }
 }
 /* TABLETS DEITADOS */
-@media only screen and (orientation:landscape) and (min-width: 1001px) and (max-width: 1180px) {
+@media only screen and (orientation:landscape) and (min-width: 984px) and (max-width: 1181px) {
 
     /* CONFIGURAÇÕES GERAIS */
 
@@ -1135,7 +1135,7 @@
     }
     .carrosel {
         margin-top: 2%;
-        margin-left: 2% ;
+        margin-left: 3% ;
        
         
     }
