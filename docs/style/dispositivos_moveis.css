@@ -457,7 +457,9 @@
     .videocurso_celular {
         display:none;
     }
-    
+    .videocurso_tablet {
+        display: none;
+    }
 
     /* conteudo da pagina inicio */
 
