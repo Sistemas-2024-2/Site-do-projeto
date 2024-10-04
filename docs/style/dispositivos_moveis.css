@@ -263,6 +263,10 @@
     .infog h2 {
         font-size: 1em;
     }
+    .carrosel_principal {
+        display: none;
+    }
+    
 
     /* footer */
     footer {
@@ -453,9 +457,7 @@
     .videocurso_celular {
         display:none;
     }
-    .videocurso_tablet {
-        display: none;
-    }
+    
 
     /* conteudo da pagina inicio */
 
@@ -494,7 +496,12 @@
         box-shadow: 300px rgba(52, 152, 219, 0.6); 
         border-radius: 0; 
     }
-
+    .carrosel_principal {
+        display: none;
+    }
+    .carrosel_tablet {
+        display: none;
+    }
     /* footer */
     footer {
         background: #7A7A7A;
@@ -618,6 +625,48 @@
         list-style-type: none;
         
     }
+    .graduacao {
+        margin: 7%;
+    }
+    .graduacao ul {
+        list-style-type: none;
+        
+    }
+    .graduacao {
+        margin: 7%;
+    }
+    .graduacao ul {
+        list-style-type: none;
+        
+    }
+    .graduacao {
+        margin: 3%;
+    }
+    .graduacao ul {
+        list-style-type: none;
+        
+    }
+    .listageralgraduacao ul {
+        margin: 3%;
+    }
+    .listageralgraduacao p {
+        font-size: 2em;
+        margin: 3%;
+        font-family: Roboto-Bold;
+    }
+    .listageralgraduacao li {
+        margin: 4%;
+        font-size: 1.5em;
+    }
+    .imagemgraduacao01 {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+    .imagemgraduacao1 {
+        border: 2px solid #3498db; 
+        box-shadow: 300px rgba(52, 152, 219, 0.6); 
+        border-radius: 0; }
     /* conteudo da pagina cursos */
 
     .cursos1 {
@@ -633,15 +682,15 @@
         list-style: none;
     }
     #imagemcurso {
-        height: 160px;
+        height: 100px;
         
     }
     #imagemcurso2 {
-        height: 230px;
+        height: 150px;
        
     }
     #imagemcurso, #imagemcurso2 {
-        margin: 3%;
+        margin: 3% 0 0 0;
         border: 2px solid #3498db; /* cor do contorno */
         box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
         border-radius: 5%; /* bordas arredondadas (opcional) */
@@ -682,11 +731,11 @@
         font-size: 1.5em;
     }
     #imagem1 {
-        height: 380px;
+        height: 250px;
         margin: 3%;
     }
     #imagem2 {
-        height: 420px;
+        height: 280px;
         margin: 3%;
     }
     #imagem2, #imagem1 {
@@ -694,7 +743,10 @@
         box-shadow: 300px rgba(52, 152, 219, 0.6); 
         border-radius: 0; 
     }
-
+    .carrosel_principal {
+        display: none;
+    }
+    
     /* footer */
     footer {
         background: #7A7A7A;
@@ -867,11 +919,11 @@
     }
    
     #imagemcurso {
-        height: 200px;
+        height: 180px;
         
     }
     #imagemcurso2 {
-        height: 290px;
+        height: 270px;
        
     }
     #imagemcurso, #imagemcurso2 {
@@ -929,6 +981,10 @@
         box-shadow: 300px rgba(52, 152, 219, 0.6); 
         border-radius: 0; 
     }
+    .carrosel_principal {
+        display: none;
+    }
+    
 
 
     /* footer */
@@ -1160,6 +1216,9 @@
     .sobre {
         margin: 2%;
     }
+    .carrosel_principal {
+        display: none;
+    }
     
 
     /* FOOTER */
@@ -1179,144 +1238,3 @@
    }
 }
 
-/* TABLETS DEITADOS */
-@media only screen and (min-width: 1px) and (max-width: 1px) and (orientation: landscape) {
-
-    /* CONFIGURAÇÕES GERAIS */
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    header h1 {
-        color: white;
-        font-family: Roboto;
-        font-size: 2em;
-    }
-    
-    body {
-        background-color: #CCCCCC;
-    }
-    
-    body h2 {
-        font-family: Roboto;
-    }
-    
-    body p {
-        font-family: Roboto-Light;
-    }
-    
-    body ul {
-        font-family: Roboto;
-    }
-
-    /* HEADER E NAVEGAÇÃO */
-
-    header {
-        display:flex;
-        flex: 1 1 100vw;
-        background-color: #141D28;
-        align-items: center;
-        flex-direction: start;
-        height: 15vh;
-        
-        
-    }
-    nav {
-        display:flex;
-        flex: 1 1 ;
-        height: 17vh;
-        
-    }
-    .logo1 {
-        height: 14vh;
-        margin: 3%;
-    }
-    #inicio, #curs, #sobre, #plan {
-        padding: 2% 1% 2% 1%;
-        font-size: 1.2em;
-        margin: 1%;
-        
-        
-    }
-    .menu-toggle {
-        display: none; 
-    }
-    
-    .list {
-        background-color: #2274A5;
-        display: flex;
-        width: 100%;
-        list-style: none;
-        align-items: center;
-        
-        
-    }
-
-    /* CONFIGURAÇÃO GERAL CONTEUDO */
-    
-    main {
-       
-        display:flex;
-        flex: 1 1 100vw;
-       
-        
-    }
-
-    /* CONTEUDO DA PAGINA CURSOS */
-
-    .cursos1 {
-        margin: 4%;
-    }
-    .cursos2 {
-        margin: 4%;
-    }
-    .cursos1 ol {
-        list-style: none;
-    }
-    .cursos2 ol {
-        list-style: none;
-    }
-    .conteudo li {
-        font-size: 1.3em;
-    }
-    .conteudo h2 {
-        font-size: 1.8em;
-    }
-
-    /* CONTEUDO DA PAGINA INICIO */
-    
-    .infog {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .info, .info1 {
-        margin: 2vh 6vw;
-        margin: 3vh 3vw;
-       
-    }
-    .carrosel {
-        margin-top: 3%;
-        margin-left: 3%;
-        
-    }
-    .infog p {
-        font-size: 1.2em;
-    }
-    .infog h2 {
-        font-size: 1.5em;
-    }
-
-    /* FOOTER */
-    
-   .footer_list ul li {
-    font-size: 1.1em;
-    margin-bottom: 2%;
-   }
-   .footer_list p {
-    font-size: 1.2em;
-    margin-bottom: 1.7%;
-   }
-}
