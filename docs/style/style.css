@@ -70,7 +70,10 @@
     align-items: center;
     justify-content: center;
 }
-
+.sobre a {
+    text-decoration: none;
+    color: black;
+}
 
 
 

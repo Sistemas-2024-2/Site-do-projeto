@@ -150,6 +150,9 @@
         margin: 3%;
         list-style-type: none;
     }
+    .sobre li:hover {
+        text-decoration: underline;
+    }
     /* CONTEUDO DA PAGINA PLANO */
     .graduacao {
         margin: 7%;
@@ -226,6 +229,16 @@
     }
     .videocurso_tablet {
         display: none;
+    }
+    .cursos2 p {
+        margin: 3%;
+    }
+    #imagemcurso3, #imagemcurso4 {
+        height: 150px;
+        margin: 3%;
+        border: 2px solid #3498db; /* cor do contorno */
+        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
+        border-radius: 5%; /* bordas arredondadas (opcional) */
     }
     /* conteudo da pagina inicio */
 
@@ -451,6 +464,13 @@
         box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
         border-radius: 5%; /* bordas arredondadas (opcional) */
     }
+    #imagemcurso3, #imagemcurso4 {
+        height: 250px;
+        margin: 3%;
+        border: 2px solid #3498db; /* cor do contorno */
+        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
+        border-radius: 5%; /* bordas arredondadas (opcional) */
+    }
     .videocurso1pc {
         display:none
     }
@@ -508,7 +528,7 @@
     footer {
         background: #7A7A7A;
         display: 1 1 100vw;
-       height: 35vh;
+       height: 38vh;
         
     }
 
@@ -693,6 +713,13 @@
     }
     #imagemcurso, #imagemcurso2 {
         margin: 3% 0 0 0;
+        border: 2px solid #3498db; /* cor do contorno */
+        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
+        border-radius: 5%; /* bordas arredondadas (opcional) */
+    }
+    #imagemcurso3, #imagemcurso4 {
+        height: 200px;
+        margin: 3%;
         border: 2px solid #3498db; /* cor do contorno */
         box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
         border-radius: 5%; /* bordas arredondadas (opcional) */
@@ -921,14 +948,21 @@
     }
    
     #imagemcurso {
-        height: 180px;
+        height: 160px;
         
     }
     #imagemcurso2 {
-        height: 270px;
+        height: 240px;
        
     }
     #imagemcurso, #imagemcurso2 {
+        margin: 3%;
+        border: 2px solid #3498db; /* cor do contorno */
+        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
+        border-radius: 5%; /* bordas arredondadas (opcional) */
+    }
+    #imagemcurso3, #imagemcurso4 {
+        height: 320px;
         margin: 3%;
         border: 2px solid #3498db; /* cor do contorno */
         box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
@@ -1133,9 +1167,9 @@
         box-shadow: 300px rgba(52, 152, 219, 0.6); 
         border-radius: 0; 
     }
-
+    
     /* CONTEUDO DA PAGINA CURSOS */
-
+    
     .cursos1 {
         margin: 4%;
     }
@@ -1161,9 +1195,16 @@
     }
     #imagemcurso2 {
         height: 290px;
-       
+        
     }
     #imagemcurso, #imagemcurso2 {
+        margin: 3%;
+        border: 2px solid #3498db; /* cor do contorno */
+        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
+        border-radius: 5%; /* bordas arredondadas (opcional) */
+    }
+    #imagemcurso3, #imagemcurso4 {
+        height: 350px;
         margin: 3%;
         border: 2px solid #3498db; /* cor do contorno */
         box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */

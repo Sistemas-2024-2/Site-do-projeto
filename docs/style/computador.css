@@ -101,6 +101,9 @@
         margin: 3%;
         list-style-type: none;
     }
+    .sobre ul li:hover {
+        text-decoration: underline;
+    }
     /* CONTEUDO DA PAGINA PLANO */
     .graduacao {
         margin: 3%;
@@ -204,6 +207,13 @@
 
     }
     #imagem1, #imagem2 {
+        border: 2px solid #3498db; /* cor do contorno */
+        box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
+        border-radius: 5%; /* bordas arredondadas (opcional) */
+    }
+    #imagemcurso3, #imagemcurso4 {
+        height: 400px;
+        margin: 3%;
         border: 2px solid #3498db; /* cor do contorno */
         box-shadow: 300px rgba(52, 152, 219, 0.6); /* sombra */
         border-radius: 5%; /* bordas arredondadas (opcional) */
