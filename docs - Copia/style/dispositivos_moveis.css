@@ -260,18 +260,15 @@
     #imagem1 {
         height: 180px;
         margin: 3%;
-        display: none;
     }
     #imagem2 {
         height: 200px;
         margin: 3%;
-        
     }
     #imagem2, #imagem1 {
         border: 2px solid #3498db; 
         box-shadow: 300px rgba(52, 152, 219, 0.6); 
         border-radius: 0; 
-       
     }
     .infog p {
         font-size: 0.8em;
@@ -282,6 +279,7 @@
     .carrosel_principal {
         display: none;
     }
+    
 
     /* footer */
     footer {
@@ -508,9 +506,8 @@
         font-size: 1.5em;
     }
     #imagem1 {
-        height: 180px;
+        height: 300px;
         margin: 3%;
-        display: none;
     }
     #imagem2 {
         height: 320px;
@@ -763,9 +760,8 @@
         font-size: 1.5em;
     }
     #imagem1 {
-        height: 180px;
+        height: 250px;
         margin: 3%;
-        display: none;;
     }
     #imagem2 {
         height: 280px;
@@ -1009,9 +1005,8 @@
         font-size: 1.5em;
     }
     #imagem1 {
-        height: 180px;
+        height: 400px;
         margin: 3%;
-        display: none;
     }
     #imagem2 {
         height: 450px;

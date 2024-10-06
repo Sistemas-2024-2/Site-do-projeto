@@ -1,0 +1,75 @@
+
+
+/* Carrossel Mobile - só aparecerá em dispositivos móveis */
+.carroselMobile {
+    position: relative;
+    max-width: 100%; /* Ajuste para ocupar a largura da tela */
+    overflow: hidden; /* Esconde as imagens que não estão sendo mostradas */
+    display: none; /* Oculta o carrosselMobile por padrão */
+    margin: 3%;
+}
+
+/* Mostra o carrosselMobile apenas em dispositivos móveis */
+@media (max-width: 768px) {
+    .carroselMobile {
+        display: block; /* Exibe o carrossel quando a tela é menor ou igual a 768px */
+    }
+}
+
+/* CELULARES DEITADO 1 */
+@media only screen and (orientation: landscape) and (min-width: 600px) and (max-width: 1000px) and (orientation: landscape) {
+    .carroselMobile {
+        display: block; 
+    }
+}
+/* TABLETS mini */
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
+    .carroselMobile {
+        display: block; 
+    }
+}
+
+/* TABLETS grande */
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) and (orientation: portrait){
+    .carroselMobile {
+        display: block; 
+    }
+}
+
+.carroselMobile-images {
+    display: flex; /* Coloca as imagens lado a lado horizontalmente */
+    transition: transform 0.5s ease;
+    width: 70vw; /* Ajuste a largura total para 4 vezes o tamanho da viewport (4 imagens) */
+}
+
+.carroselMobile-images img {
+    width: 100vw; /* Cada imagem ocupará 100% da largura da viewport */
+    height: auto; /* Mantém a proporção da imagem */
+    flex-shrink: 0; /* Evita que as imagens encolham */
+}
+
+/* Estilo específico para botões de navegação */
+.carroselMobile-prev, .carroselMobile-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    user-select: none; /* Impede a seleção de texto acidental */
+}
+
+.carroselMobile-prev {
+    left: 10px;
+}
+
+.carroselMobile-next {
+    right: 10px;
+}
+
+.carroselMobile-prev:hover, .carroselMobile-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
