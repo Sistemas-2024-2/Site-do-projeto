@@ -40,7 +40,7 @@ document.querySelector('.carroselMobile').addEventListener('touchend', function(
 
 // Função para mover automaticamente para o próximo slide
 function autoMoveCarrosel() {
-    moveCarroselMobile(0);
+    moveCarroselMobile(1);
 }
 
 // Inicia o movimento automático a cada 3 segundos (3000 ms)
